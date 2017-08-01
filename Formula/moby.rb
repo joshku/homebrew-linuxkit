@@ -3,7 +3,7 @@ require "language/go"
 class Moby < Formula
   desc "Container assembly tool"
   homepage "https://github.com/moby/tool"
-  head "https://github.com/moby/tool.git"
+  head "https://github.com/moby/tool.git", :branch => "master", :revision => "36217e5145f1e54807490c09cc389f5e3ac99075"
 
   depends_on "go" => :build
 

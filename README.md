@@ -1,4 +1,4 @@
-Homebrew formulae for LinuxKit
+# Homebrew formulae for LinuxKit
 
 If you have installed the commands before, you will want to delete
 them first as they will conflict with the `brew` installed ones.
@@ -14,7 +14,9 @@ brew install --HEAD moby
 brew install --HEAD linuxkit
 ```
 
-Currently only `HEAD` taps are available, but releases will be available later.
+~Currently only `HEAD` taps are available, but releases will be available later.~
+
+**NOTE:** This tap only installs Moby from a specific commit referenced in the formula
 
 `HEAD` taps are a bit odd for upgrades, so upgrade with
 ```

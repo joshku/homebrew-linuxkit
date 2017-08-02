@@ -6,7 +6,7 @@ them first as they will conflict with the `brew` installed ones.
 
 You can add these to your homebrew install with
 ```
-brew tap linuxkit/linuxkit
+brew tap joshku/linuxkit
 ```
 then install with
 ```
@@ -28,5 +28,5 @@ To remove
 ```
 brew remove moby
 brew remove linuxkit
-brew untap linuxkit/linuxkit
+brew untap joshku/linuxkit
 ```
